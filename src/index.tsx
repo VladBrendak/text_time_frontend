@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './screens/home/Home';
 import reportWebVitals from './reportWebVitals';
 import './assets/styles/global.css'
+import Router from './components/Router';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <Home />
+    <Router />
   </React.StrictMode>
 );
 
