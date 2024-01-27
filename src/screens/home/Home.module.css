@@ -1,0 +1,34 @@
+.postcard {
+    width: 500px;
+    padding: 10px;
+    border: solid #ccc 1px;
+    border-radius: 10px;
+}
+
+.postcard h2{
+    margin-bottom: 10px;
+}
+
+.postcard p{
+    margin-bottom: 10px;
+}
+
+.image {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.icons{
+    display: block;
+    padding: 10px;
+    height: 30px;
+}
+
+.icon{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
