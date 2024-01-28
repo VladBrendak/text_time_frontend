@@ -1,0 +1,19 @@
+.loginContainer{
+    padding: 10px;
+    display: block;
+    height: 600px;
+    width: 70%;
+    background-color: #222;
+    border: solid #111 1px;
+    border-radius: 15px;
+}
+
+.popupEnterActive {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+  
+.popupExitActive {
+    opacity: 0;
+    transition: opacity 500ms;
+}
