@@ -11,14 +11,23 @@ const PopUp: React.FC<PopupProps> = ({open, onClose}) => {
     if(!open) return null;
 
     return (
-        <> 
-            <div className={styles.background}>
-                <div className={styles.popup}>
-                    <h1> Is Open </h1>
-                    <button onClick={onClose}>Close Popup</button>
+        <div className={styles.background}>
+            <div className={styles.popup}>
+                <div className={styles.closeP}>
+                    <div className={styles.close} onClick={onClose}>×</div>
                 </div>
+                <h2> Login </h2>
+                <p>By continuing, you agree to our User Agreement and acknowledge that you understand the Privacy Policy</p>
+                <form>
+                    <div>
+                        <input className={styles.textinput} type="password"/>
+                    </div>
+                    <div>
+                        <input type="password"/>
+                    </div>
+                </form>
             </div>
-        </>
+        </div>
     )
 }
 

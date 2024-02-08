@@ -1,34 +1,27 @@
-.postcard {
-    width: 500px;
-    padding: 10px;
-    border: solid #ccc 1px;
-    border-radius: 10px;
+.colors {
+    border: 3px dashed red;
 }
 
-.postcard h2{
-    margin-bottom: 10px;
+.colors div {
+    height: 50px;
 }
 
-.postcard p{
-    margin-bottom: 10px;
+.color1 { 
+    background: #EEE2DF;
 }
 
-.image {
-    display: block;
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
+.color2 { 
+    background: #EED7C5;
 }
 
-.icons{
-    display: block;
-    padding: 10px;
-    height: 30px;
+.color3 { 
+    background: #C89F9C;
 }
 
-.icon{
-    display: block;
-    height: 30px;
-    width: 30px;
-    margin: 5px;
+.color4 { 
+    background: #C97C5D;
+}
+
+.color5 { 
+    background: #B36A5E;
 }

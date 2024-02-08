@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elements {
+    right: 0px;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu div{
+    padding: 5px;
+    margin: 5px;
+    background-color: #111;
+}
+
+.other {
+    padding: 5px;
+    margin: 5px;
+    background-color: #111;
+    user-select: none;
+}
+
+.other:hover{
+    cursor: pointer;
+    color: aquamarine;
+    border: solid 1px aquamarine;
+}
+
+.popupEnterActive {
+    opacity: 1;
+    transition: opacity 500ms;
+}
+  
+.popupExitActive {
+    opacity: 0;
+    transition: opacity 500ms;
+}
